@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Sustainability Dashboard</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo"></div>
+    <ul class="menu">
+      <li>
+        <a href="dashboard.html">
+          <i class="fas fa-lightbulb"></i>
+          <span>Electricity</span>
+        </a>
+      </li>
+      <li>
+        <a href="dashboard2.html">
+          <i class="fas fa-bottle-water"></i>
+          <span>Water</span>
+        </a>
+      </li>
+      <li class="logout">
+        <a href="index.html">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          <span>Logout</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <h2>Dashboard</h2>
+      </div>
+      <div class="user-info">
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search">
+        </div>
+        <img src="assets/img_avatar2.png" alt="">
+      </div>
+    </div>
+
+    <div class="card-container">
+      <img src="assets/unitselectricity.png" alt="data">
+      <div class="data-desc">
+        <h3 class="data-title">
+          Unit Consumption
+        </h3>
+        <span class="desc">This data shows the amount of units consumed in KWh every month for the year. The image depicts a line chart illustrating the consumption of units over the course of the previous year. The chart is plotted with time along the horizontal axis, broken down into months, while the vertical axis denotes the quantity of units consumed for each month for the year 2023.</span>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <img src="assets/billamt.png" alt="data">
+      <div class="data-desc">
+        <h3 class="data-title">
+          Electricity Charges
+        </h3>
+        <span class="desc">The line chart serves as a tool for understanding the campus's electricity expenditure throughout the year, enabling the students and staff to identify trends, pinpoint areas of concern, and strategize for improved efficiency and cost-effectiveness in the future.</span>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <img src="assets/saveamt.png" alt="data">
+      <div class="data-desc">
+        <h3 class="data-title" style="margin-bottom: 40px;">
+          Saved Electricity Amount 
+        </h3>
+        <span class="desc">
+          This graph shows that the usage of Energy-efficient appliances consumed less electricity, saving costs and reducing environmental impact. This will help the institutional community to check what's working and how the environment is being taken care of.</span>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

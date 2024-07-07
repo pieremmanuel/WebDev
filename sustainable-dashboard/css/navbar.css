@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    transition: all 500ms ease;
+}
+
+header{
+    background-color: transparent;
+}
+
+header.scrolling{
+    background-color: #27348b;
+}
+
+.navbar-brand {
+	transition: 0.3s;
+    margin-left: 20px;
+}
+
+.navbar-brand:hover,
+.right-nav:hover {
+	transform: scale(1.1);
+}
+
+.right-nav {
+	color: #008DCD;
+	font-size: 28px;
+	transition: 0.3s;
+	vertical-align: middle;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+	margin-top: 10px;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}

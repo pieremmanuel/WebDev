@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Sustainability Dashboard</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo"></div>
+    <ul class="menu">
+      <li>
+        <a href="dashboard.html">
+          <i class="fas fa-lightbulb"></i>
+          <span>Electricity</span>
+        </a>
+      </li>
+      <li>
+        <a href="dashboard2.html">
+          <i class="fas fa-bottle-water"></i>
+          <span>Water</span>
+        </a>
+      </li>
+      <li class="logout">
+        <a href="index.html">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          <span>Logout</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <h2>Dashboard</h2>
+      </div>
+      <div class="user-info">
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search">
+        </div>
+        <img src="assets/img_avatar2.png" alt="">
+      </div>
+    </div>
+
+    <div class="card-container">
+      <img src="assets/liftingwater.png" alt="data">
+      <div class="data-desc">
+        <h3 class="data-title">
+          Lifting Water Consumption from Borewells
+        </h3>
+        <span class="desc">This data contains the amount of water being lifted by the Borewells of the campus for the month of April, which gives us an insight of how much water is being pumped up everyday and come up with measures to minimize this.</span>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <img src="assets/buildingwater.png" alt="data">
+      <div class="data-desc">
+        <h3 class="data-title">
+          Water Consumption in Buildings
+        </h3>
+        <span class="desc">The chart shows the daily Consumption of water in the buildings of the campus and was collected from all the locations in the campus to get an idea of the amount of water necessary for daily uses.</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
